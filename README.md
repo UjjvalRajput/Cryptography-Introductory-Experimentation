@@ -11,8 +11,9 @@ This project demonstrates how to integrate AES encryption and RSA digital signat
 1. Clone the repository or download the `main.go` file to your local machine.
 
 2. Navigate to the directory where the `main.go` file is located.
-
+  ```
   cd path/to/your/directory
+  ```
 
 3. Set the `AES_KEY` environment variable. This key will be used for AES encryption. Replace `thisis16byteskey` with your desired key.
 
