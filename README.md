@@ -18,62 +18,62 @@ This project demonstrates how to integrate AES encryption and RSA digital signat
 3. Set the `AES_KEY` environment variable. This key will be used for AES encryption. Replace `thisis16byteskey` with your desired key.
 
    - On Linux or macOS:
-     
+     ```
      export AES_KEY=thisis16byteskey
-     
+     ```
 
    - On Windows (Command Prompt):
-     
+     ```
      set AES_KEY=thisis16byteskey
-     
+     ```
 
    - On Windows (PowerShell):
-     
+     ```
      $env:AES_KEY="thisis16byteskey"
-     
+     ```
 
 ## Running the Program
 
 To run the program, use the `go run` command:
 
-
+```
 go run main.go
-
+```
 
 ### Example Commands
 
 #### Linux or macOS:
 
-
+```
 export AES_KEY=thisis16byteskey
 go run main.go
-
+```
 
 #### Windows (Command Prompt):
 
-
+```
 set AES_KEY=thisis16byteskey
 go run main.go
-
+```
 
 #### Windows (PowerShell):
 
-
+```
 $env:AES_KEY="thisis16byteskey"
 go run main.go
-
+```
 
 ## Output
 
 If everything is set up correctly, you should see output similar to the following:
 
-
+```
 Original Message: Hello, Crypto Agile!
 Encrypted Message: [hex-encoded encrypted message]
 SHA-256 Hash: [calculated hash]
 RSA Signature: [hex-encoded RSA signature]
 Signature Verification: true
-
+```
 
 ## Code Explanation
 
